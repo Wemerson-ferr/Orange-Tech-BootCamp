@@ -1,3 +1,14 @@
+/**
+* <h1>App</h1>
+* Classe generica criada em aula do orange bootcamp
+* <p>
+* <b>Note:</b> fonte : https://glysns.gitbook.io/java-basico
+*
+* @author  Wemerson Ferreira
+* @version 1.0
+* @since   20/01/2023
+*/
+
 public class App {
     public static void main(String[] args) throws Exception {
         /*Aula de metodos

@@ -24,4 +24,10 @@ hs_err_pid*
 
 # Visual Studio Code
 .vscode/
+
+#personalizados
+Orange-Tech-BootCamp/README.md
 .obsidian/
+
+#markdown 
+*.md

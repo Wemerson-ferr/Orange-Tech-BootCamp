@@ -1,7 +1,13 @@
 package Set_interface;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Exercicios_Set {
 /*
@@ -17,7 +23,7 @@ public class Exercicios_Set {
     h) Confira se o conjunto está vazio;
 */
     public static void main(String[] args) {
-        Set<String> arcoIris = new LinkedHashSet<>(){{
+        Set<String> arcoIris = new HashSet<>(){{
             add("violeta");
             add("anil");
             add("azul");
@@ -26,6 +32,34 @@ public class Exercicios_Set {
             add("laranja");
             add("vermelho");
         }};
-        System.out.println(arcoIris.toString());
+        for (String string : arcoIris) {// a)
+            System.out.println(string);
+        }
+        System.out.printf("O arco-irís tem %d cores\n", arcoIris.size()); // b)
+
+        TreeSet<String> arvoreArcoIris= new TreeSet<String>(arcoIris);// c) 
+        for (String cor : arvoreArcoIris) {
+            System.out.println(cor);
+        }
+        LinkedHashSet<String> arcoIrisLinkado = new LinkedHashSet<String>(){{
+            add("violeta");
+            add("anil");
+            add("azul");
+            add("verde");
+            add("amarelo");
+            add("laranja");
+            add("vermelho");
+        }};
+        System.out.println(arcoIrisLinkado);
+        List<String> listaArcoIris = new ArrayList<>(arcoIrisLinkado);
+        System.out.println(listaArcoIris);// d)
+
+        for (String cor : arcoIrisLinkado) {// e)
+            if(cor.charAt(0)=='v'){
+                System.out.println(cor);
+            }
+        }
+
+        
     }
 }

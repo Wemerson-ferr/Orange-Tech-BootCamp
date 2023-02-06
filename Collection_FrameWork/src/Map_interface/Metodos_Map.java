@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.Map.Entry;
 
-public class MetodosMap {
+public class Metodos_Map {
 /*
  Dada os modelos dos carros e seus respectivos consumos na estrada, faça:
  modelo = gol - consumo = 14,4km/l

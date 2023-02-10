@@ -46,10 +46,11 @@ public class Ordenacao_Set {
             System.out.println(minhasSeriesTree.toString());
 
         //Exiba por ordem de nome - genero - tempo de episodio
-            //Criaremos uma TreeSet nova e enviaremos um camparetor de parâmetro
+        
+            /* //Criaremos uma TreeSet nova e enviaremos um camparetor de parâmetro
             Set<Serie> minhaSerieTree2 = new TreeSet<>(new ComparetorNomeGeneroTempoEpisodeo());
             minhaSerieTree2.addAll(minhaSerieTree2);//Neste método passamos uma Collection já preenchido.
-            System.out.println(minhaSerieTree2);
+            System.out.println(minhaSerieTree2); */
     }
 }  
 class Serie implements Comparable<Serie>{

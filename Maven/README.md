@@ -1,5 +1,11 @@
 
 # Java maven
+-----------
+links úteis:<br>
+https://www.baeldung.com/maven-compiler-plugin <br>
+https://mkyong.com/maven/how-to-run-unit-test-with-maven/ <br>
+http://tutorials.jenkov.com/maven/maven-commands.html <br>
+
 
 Maven é uma ferramenta de gerenciamento de construção de software para projetos baseados em Java. Ele fornece um meio fácil de definir, gerenciar e construir projetos, bem como gerenciar suas dependências. Com o Maven, você pode gerenciar automaticamente os artefatos do seu projeto (bibliotecas, frameworks, etc.), além de gerar documentação, compilar, testar, empacotar e implantar seu software em diferentes ambientes.
 O Maven usa um arquivo de configuração chamado "pom.xml" (Project Object Model) para descrever as características do projeto, suas dependências e como o software deve ser construído. Ele usa convenções padronizadas para gerenciar o ciclo de vida do projeto e simplificar a construção de software. O Maven é amplamente utilizado na comunidade Java e é uma ferramenta essencial para desenvolvedores Java.
